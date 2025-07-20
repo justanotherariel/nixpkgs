@@ -1,0 +1,11 @@
+diff --git a/Makefile b/Makefile
+index 7afa189..c3e8215 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,5 +1,5 @@
+ #dirs = libs cngpij cngpijmon ppd pstocanonij 
+-dirs = libs cngpij cngpijmnt pstocanonij backend backendnet cngpijmon/cnijnpr
++dirs = libs cngpij cngpijmnt pstocanonij backend backendnet
+ 
+ scripts=for dir in $(dirs); do\
+ 			(cd $$dir; make $$target)|| exit 1;\
